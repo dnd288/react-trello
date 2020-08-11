@@ -22,7 +22,8 @@ export {
   Lane,
   createTranslate,
   locales,
-  widgets
+  widgets,
+  MovableCardWrapper,
 }
 
 export { DefaultComponents as components }
