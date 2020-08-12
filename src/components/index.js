@@ -6,7 +6,19 @@ import NewLaneForm from './NewLaneForm'
 import NewCardForm from './NewCardForm'
 import AddCardLink from './AddCardLink'
 import NewLaneSection from './NewLaneSection'
-import {GlobalStyle, Section, BoardWrapper, ScrollableLane } from 'rt/styles/Base'
+import {
+  GlobalStyle, 
+  Section, 
+  BoardWrapper, 
+  ScrollableLane, 
+  MovableCardWrapper,
+  CardForm,
+  CardHeader,
+  CardRightContent,
+  CardTitle,
+  CardWrapper,
+  Detail,
+} from 'rt/styles/Base'
 import Tag from './Card/Tag'
 
 export default {
@@ -22,5 +34,12 @@ export default {
   NewCardForm,
   Card,
   AddCardLink,
+  MovableCardWrapper,
   Tag,
+  CardForm,
+  CardHeader,
+  CardRightContent,
+  CardTitle,
+  CardWrapper,
+  Detail,
 }

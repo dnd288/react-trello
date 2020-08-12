@@ -13,8 +13,6 @@ import widgets from './widgets'
 
 import createTranslate from './helpers/createTranslate'
 
-import { MovableCardWrapper } from './styles/Base'
-
 export {
   Draggable,
   Container,
@@ -23,7 +21,6 @@ export {
   createTranslate,
   locales,
   widgets,
-  MovableCardWrapper,
 }
 
 export { DefaultComponents as components }

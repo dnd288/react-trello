@@ -53,12 +53,6 @@ Object.defineProperty(exports, "createTranslate", {
     return _createTranslate.default;
   }
 });
-Object.defineProperty(exports, "MovableCardWrapper", {
-  enumerable: true,
-  get: function get() {
-    return _Base.MovableCardWrapper;
-  }
-});
 exports.default = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
@@ -88,8 +82,6 @@ var _locales = _interopRequireDefault(require("./locales"));
 var _widgets = _interopRequireDefault(require("./widgets"));
 
 var _createTranslate = _interopRequireDefault(require("./helpers/createTranslate"));
-
-var _Base = require("./styles/Base");
 
 const DEFAULT_LANG = 'en';
 

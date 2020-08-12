@@ -40,6 +40,13 @@ var _default = {
   NewCardForm: _NewCardForm.default,
   Card: _Card.default,
   AddCardLink: _AddCardLink.default,
-  Tag: _Tag.default
+  MovableCardWrapper: _Base.MovableCardWrapper,
+  Tag: _Tag.default,
+  CardForm: _Base.CardForm,
+  CardHeader: _Base.CardHeader,
+  CardRightContent: _Base.CardRightContent,
+  CardTitle: _Base.CardTitle,
+  CardWrapper: _Base.CardWrapper,
+  Detail: _Base.Detail
 };
 exports.default = _default;
